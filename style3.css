@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lexend Deca' , sans-serif;
+    background-color: rgb(241, 236, 225);
+}
+.cabecalho{
+    display: inline-flex;
+    margin-top: 1%;
+}
+.cabecalho img{
+    margin-left: 110%;
+    height: 15%;
+    width: 15%;
+    border-radius: 400px;
+}
+.cabecalho h1{
+    margin-left: 3%;
+    text-align: left;
+}
+.imagens{
+    gap: 10px;
+    display: inline-flex;
+}
+.imagens img{
+    height: 450px;
+    width: 300px;
+    box-shadow: 4px 4px 0px black;
+}
+#imagem1{
+    margin-left: 22%;
+}

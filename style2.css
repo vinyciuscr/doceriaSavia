@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lexend Deca' , sans-serif;
+    overflow-y: hidden;
+    background-color: rgb(241, 236, 225);
+}
+.wallpaper { 
+    grid-area: wallpaper; 
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .wallpaper img {
+    width: 100%;
+    height: 120%;
+    margin: 0;
+  }
+.container {  display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "wallpaper wallpaper conteudo conteudo conteudo conteudo"
+      "wallpaper wallpaper conteudo conteudo conteudo conteudo"
+      "wallpaper wallpaper conteudo conteudo conteudo conteudo"
+      "wallpaper wallpaper conteudo conteudo conteudo conteudo";
+  }
+  
+  .wallpaper { grid-area: wallpaper; }
+  
+  .conteudo { grid-area: conteudo; }
+
+  .title{
+    color: rgb(70, 70, 70);
+    margin-left: 3%;
+    margin-top: 4%;
+    font-size: 220%;
+    box-shadow: 0px 2px 0px black;
+  }
+  .cabecalho{
+    display: inline-flex;
+  }
+  .cabecalho img {
+    height: 10%;
+    width: 10%;
+    margin-top: 1.6%;
+    margin-left: 20%;
+    border-radius: 300px;
+  }
+  .conteudo h2 {
+    color: black;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    font-size: 110%;
+  }
+  .conteudo p{
+    text-align: justify;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-right: 2%;
+  }
+  #title_dadoscadastraias{
+    color: darkred;
+    margin-left: 3%;
+    margin-top: 3%;
+    font-size: 190%;
+  }

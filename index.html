@@ -1,0 +1,39 @@
+<?php
+    session_star()
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <section class="wallpaper">
+            <img src="imagemfundo.png" alt="">
+        </section>
+
+        <div class="login__logo">
+            <img src="logo.png" alt="">
+            <h2>Fazer Login</h2>
+        </div>
+        <div class="fazerlogin">
+        <form action="" method="POST" action="autenticacao.php" class="enviardados">
+                    <input type="text" placeholder="NOME DO USUARIO" style="background: rgb(241, 241, 241)" name="username" id="username" class="input"> <br/>
+                    <input type="password" name="password" id="password" style="background: rgb(241, 241, 241)" placeholder="SENHA" class="inputsenha"> <br/>
+                    <button class="enviar" type="submit">Acessar</button>
+        </form>
+        <div class="redessociais">
+            <img src="facebooklogo.png" alt="">
+            <img src="googlelogo.png" alt="">
+            <img src="applelogo.png" alt="">
+        </div>
+        </div>
+
+    </div>        
+</body>
+</html>
